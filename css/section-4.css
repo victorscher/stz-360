@@ -1,0 +1,112 @@
+.section-4{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  grid-template-rows: 10vh 20vh 66vh 4vh;
+}
+
+.section-4-title{
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+}
+
+.section-4-title h2{
+  text-transform: uppercase;
+  font-size: 7vw;
+  font-family: "lato";
+  letter-spacing: 3vw;
+}
+
+.section-4-slider{
+  position: relative;
+  overflow: hidden;
+  width: 101%;
+  height: 101%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.item-1{
+  background-image: url("../img/section-4/section-4-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.item-2{
+  background-image: url("../img/section-4/stock-photo-beautiful-young-arabic-woman-with-black-curly-hairstyle-arab-girl-in-casual-clothes-in-the-street-1016701195.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.item-3{
+  background-image: url("../img/section-4/stock-photo-details-of-everyday-elegant-look-unrecognizable-model-wearing-casual-outfit-gray-coat-and-pink-1171815217.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.item-4{
+  background-image: url("../img/section-4/stock-photo-fashion-tomboy-teen-hipster-short-hairstyle-gen-z-girl-wear-stylish-clothes-glasses-stand-near-neon-1514800850.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-4-texture{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/section-4/texture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 1 / 2;
+  grid-row: 3 / 5;
+}
+
+.section-4-btn{
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+.next, .prev{
+  margin: 0 1em;
+}

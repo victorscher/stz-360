@@ -1,0 +1,47 @@
+.section-7{
+  margin-top: 5vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 9vh 15vh 32.5vh 9vh 9vh 13vh;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.section-7 .circle{
+  width: 10.5vh;
+  height: 10.5vh;
+  background-image: url("../img/section-5/circulo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  animation: rotate 10s linear infinite forwards;
+  position: absolute;
+  top: 1.5vh;
+  right: 3vh;
+  z-index: 999;
+}
+
+.section-7 .tenis-colors{
+  width: 100%;
+  height: 100%;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  display: grid;
+  grid-template-columns: 14% 12% 12% 12% 12% 12% 12% 14%;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.bolsa{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .section-7{
+    grid-template-rows: 7vh 22vh 73vh;
+    grid-template-columns: 20% 50% 30%;
+    overflow: hidden;
+  }  
+}

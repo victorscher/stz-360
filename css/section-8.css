@@ -1,0 +1,67 @@
+.section-8{
+  height: 60vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 30% 50% 20%;
+}
+
+.section-8 .white-bar{
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  width: 100%;
+  height: 100%;
+  background-color: #dbdbdb;
+}
+
+.section-8 .video{
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../img/section-8/200107_STUDIOZ_27197_ST.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-8 .black-bar{
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  /* transform: translateY(-2px); */
+}
+
+.section-8 .btn-circle{
+  background-image: url("../img/section-8/Elipse\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-8 .btn-player{
+  background-image: url("../img/section-8/Polígono\ 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35px;
+  height: 50px;
+  transform: translate(5px);
+}
+
+@media (min-width: 1024px) {
+  .section-8{
+    height: 95vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 10% 82% 8%;
+  }
+}
